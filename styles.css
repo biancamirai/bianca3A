@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(196, 96, 96);
+    color: black;
+    margin: 20px;
+}
+
+header{
+    border-bottom: solid 3px rgb(216, 118, 118);
+    padding: 0px;
+    font-size: 30px;
+    color: rgb(245, 208, 208);
+}
+
+.chamada {
+    background: rgb(212, 140, 140);
+    padding-bottom: 10px;
+    padding-top: 80px;
+    display: flex;
+}
+
+.chamada-texto{
+margin-right: 5%;
+}
+h1 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+div{
+    margin-right: 80px;
+}
+body {
+    color: white;
+    background: rgb(196, 96, 96);
+    margin: 20px;
+    font-family: "pacifico", sans-serif;
+    margin-bottom: 100px;
+  }
+  
+  img {
+    height: 200px; 
+  }
+  .categoria-videos {
+    display: flex; 
+    overflow: auto;
+    gap: 10px;
+  }
+  section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+  }
+  .categoria-videos img {
+     opacity: 0.5;
+     height: 200px;
+  }
+  .categoria-videos img:hover {
+  opacity: 1.0;
+  border: 1px solid green;
+  }
+  .categoria h2 {
+    color: pink
+  }
